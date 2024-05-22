@@ -1,13 +1,11 @@
 import React from 'react'
-import Greenplant from '../GP/Greenplant'
+import'./hm.css'
 
 
 function Home() {
   return (
-    <div>
-      <h1>hello world</h1>
-      <Greenplant />
-
+    <div className='pt'>
+      <h1>hello world</h1>      
     </div>
   )
 }
