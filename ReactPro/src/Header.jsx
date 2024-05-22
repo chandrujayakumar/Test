@@ -3,9 +3,20 @@ function Header(){
         <header>
             <h1>Hello world</h1>
             <nav>
-                <ol></ol>
+                <ol>kumar</ol>
+                <ol>perakaksu</ol>
             </nav>
         </header>
     );
 }
-export default Header
+
+
+function Noting() {
+    return(
+        <div>
+        <h4>How are you</h4>
+        <p>hello mather fother</p>
+        </div>
+    );
+}
+export default Noting

@@ -1,7 +1,7 @@
-import Header from './Header.jsx'
+import Noting from './Header.jsx'
 function App() {
       return(
-        <Header/>
+        <Noting/>
       );
 }
 
