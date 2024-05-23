@@ -1,7 +1,15 @@
-import Noting from './Header.jsx'
+import Button from "./Button";
+import Stud from "./Stud";
+
 function App() {
       return(
-        <Noting/>
+        <>
+        <Stud name="Santa" age={90} isStud={false}/>
+        <Stud name="Chandru" age={91} isStud={false}/>
+        <Stud name="Valen" age={72} isStud={false}/>
+        <Stud name="Nickel" age={46} isStud={false}/>
+        <Button />
+        </>
       );
 }
 
